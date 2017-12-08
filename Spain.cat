@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="e20c-c63c-a65c-ae70" name="Spain" revision="2" battleScribeVersion="2.01" gameSystemId="c888-41c3-6663-8391" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries>
+    <selectionEntry id="7bbc-17b0-f0e5-cf74" name="Noble" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="69b2-6c4c-a0a3-9def" name="Noble" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Unlike Revolutionary France, Spain had no problem employing noblemen as admirals. With more financial and political pull, these men were often able to outfit their fleets better than others. You get a +10% bonus to build your fleet.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="b372-9437-da31-ba24" name="New CategoryLink" hidden="false" targetId="ca3c-95e8-59ff-7cdc" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="8798-8366-550b-fbb8" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7093-5ab1-c273-2c21" name="Veteran Sailor" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="9234-ea0e-6d30-8bcc" name="Veteran Sailor" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Many Spanish admirals had been sailing the seas for decades. Bringing their vast expertise to the operation of their fleet, they are able to pull off daring strategies. Your squadrons may combine fire while within 9&quot; of each other, instead of the normal 6&quot;.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="b95f-6dfa-2321-bd78" name="New CategoryLink" hidden="false" targetId="ca3c-95e8-59ff-7cdc" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="8798-8366-550b-fbb8" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5a17-e019-e71e-4ddc" name="Pragmatist" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="4005-8276-e87e-7a0d" name="Pragmatist" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The admiral knows that no battle comes without a terrible cost, and constantly trains his men in damage control techniques. Your ships get +1 Discipline when rolling to remove Damage tokens.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="dc4f-a8ff-4d88-f292" name="New CategoryLink" hidden="false" targetId="ca3c-95e8-59ff-7cdc" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="8798-8366-550b-fbb8" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="132d-59ba-0649-70b4" name="1st Rate" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="2ab6-289c-2b32-a4c7" name="1st Rate" hidden="false" profileTypeId="ce5d-a89f-d8af-c646" profileTypeName="Ship">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sailing" characteristicTypeId="01a9-fb9f-079b-b5a1" value="2"/>
+            <characteristic name="Discipline" characteristicTypeId="b0d2-cfef-48c9-0046" value="7"/>
+            <characteristic name="Boarding" characteristicTypeId="0e9c-98e6-9c8d-65d1" value="10"/>
+            <characteristic name="Gunnery" characteristicTypeId="b5f0-af08-9199-5f67" value="11"/>
+            <characteristic name="Hull" characteristicTypeId="6ae0-438a-301b-e203" value="10"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2553-69b4-8ac7-36d9" name="New CategoryLink" hidden="false" targetId="d0d5-5588-4426-d9ab" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="8306-2ab2-5bfe-54f0" name="Captain" hidden="false" targetId="f11a-bab0-856f-2a50" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="8798-8366-550b-fbb8" value="107.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eafb-7f32-b9a8-0a70" name="3rd Rate" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="fac9-795f-3f52-94bd" name="3rd Rate" hidden="false" profileTypeId="ce5d-a89f-d8af-c646" profileTypeName="Ship">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sailing" characteristicTypeId="01a9-fb9f-079b-b5a1" value="3"/>
+            <characteristic name="Discipline" characteristicTypeId="b0d2-cfef-48c9-0046" value="7"/>
+            <characteristic name="Boarding" characteristicTypeId="0e9c-98e6-9c8d-65d1" value="7"/>
+            <characteristic name="Gunnery" characteristicTypeId="b5f0-af08-9199-5f67" value="9"/>
+            <characteristic name="Hull" characteristicTypeId="6ae0-438a-301b-e203" value="7"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="05e7-e3a5-1184-ff09" name="New CategoryLink" hidden="false" targetId="d0d5-5588-4426-d9ab" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="a01f-84dd-d285-eb73" name="Captain" hidden="false" targetId="f11a-bab0-856f-2a50" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="8798-8366-550b-fbb8" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ef57-9051-07a6-ee91" name="4th Rate" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="9fd1-d5e7-7011-d81c" name="4th Rate" hidden="false" profileTypeId="ce5d-a89f-d8af-c646" profileTypeName="Ship">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sailing" characteristicTypeId="01a9-fb9f-079b-b5a1" value="4"/>
+            <characteristic name="Discipline" characteristicTypeId="b0d2-cfef-48c9-0046" value="6"/>
+            <characteristic name="Boarding" characteristicTypeId="0e9c-98e6-9c8d-65d1" value="5"/>
+            <characteristic name="Gunnery" characteristicTypeId="b5f0-af08-9199-5f67" value="7"/>
+            <characteristic name="Hull" characteristicTypeId="6ae0-438a-301b-e203" value="5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f237-e384-3d82-04ca" name="New CategoryLink" hidden="false" targetId="d0d5-5588-4426-d9ab" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="ff4f-885e-9c3b-4388" name="Captain" hidden="false" targetId="f11a-bab0-856f-2a50" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="8798-8366-550b-fbb8" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b5d1-5c8f-6fca-cbfd" name="1st Rate" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="9734-5327-a74d-faaa" name="1st Rate" hidden="false" profileTypeId="ce5d-a89f-d8af-c646" profileTypeName="Ship">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sailing" characteristicTypeId="01a9-fb9f-079b-b5a1" value="2"/>
+            <characteristic name="Discipline" characteristicTypeId="b0d2-cfef-48c9-0046" value="5"/>
+            <characteristic name="Boarding" characteristicTypeId="0e9c-98e6-9c8d-65d1" value="10"/>
+            <characteristic name="Gunnery" characteristicTypeId="b5f0-af08-9199-5f67" value="11"/>
+            <characteristic name="Hull" characteristicTypeId="6ae0-438a-301b-e203" value="10"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="ce29-697c-a87b-a122" name="New CategoryLink" hidden="false" targetId="22c2-376d-3705-c132" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="6e28-a105-e9c9-db9e" name="Captain" hidden="false" targetId="f11a-bab0-856f-2a50" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="8798-8366-550b-fbb8" value="104.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a076-eed0-fe43-d27b" name="3rd Rate" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="545a-6b38-485b-3840" name="3rd Rate" hidden="false" profileTypeId="ce5d-a89f-d8af-c646" profileTypeName="Ship">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sailing" characteristicTypeId="01a9-fb9f-079b-b5a1" value="3"/>
+            <characteristic name="Discipline" characteristicTypeId="b0d2-cfef-48c9-0046" value="5"/>
+            <characteristic name="Boarding" characteristicTypeId="0e9c-98e6-9c8d-65d1" value="7"/>
+            <characteristic name="Gunnery" characteristicTypeId="b5f0-af08-9199-5f67" value="9"/>
+            <characteristic name="Hull" characteristicTypeId="6ae0-438a-301b-e203" value="7"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="84e8-bf27-fdbf-1ba1" name="New CategoryLink" hidden="false" targetId="22c2-376d-3705-c132" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="f40f-954c-b785-f3ab" name="Captain" hidden="false" targetId="f11a-bab0-856f-2a50" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="8798-8366-550b-fbb8" value="52.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9954-7e40-7cf5-516d" name="4th Rate" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="628e-119d-9715-0035" name="4th Rate" hidden="false" profileTypeId="ce5d-a89f-d8af-c646" profileTypeName="Ship">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sailing" characteristicTypeId="01a9-fb9f-079b-b5a1" value="4"/>
+            <characteristic name="Discipline" characteristicTypeId="b0d2-cfef-48c9-0046" value="4"/>
+            <characteristic name="Boarding" characteristicTypeId="0e9c-98e6-9c8d-65d1" value="5"/>
+            <characteristic name="Gunnery" characteristicTypeId="b5f0-af08-9199-5f67" value="7"/>
+            <characteristic name="Hull" characteristicTypeId="6ae0-438a-301b-e203" value="5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5bcf-02be-0c08-94b0" name="New CategoryLink" hidden="false" targetId="22c2-376d-3705-c132" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="3193-e3a1-639d-c767" name="Captain" hidden="false" targetId="f11a-bab0-856f-2a50" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="8798-8366-550b-fbb8" value="33.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dd11-d8b9-8694-5857" name="Cosme Damián de Churruca y Elorza" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="7c4c-99fd-9d12-4868" name="Cosme Damián de Churruca y Elorza" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Courageous: His ship, and each of your ships within 12&quot; of his ship, get +1 Discipline.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="50a8-1c86-067e-11ba" name="New CategoryLink" hidden="false" targetId="ca3c-95e8-59ff-7cdc" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="8798-8366-550b-fbb8" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="834e-c693-f392-0af6" name="Santissima Trinidad" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="506a-1db2-1169-0417" name="Santissima Trinidad" hidden="false" profileTypeId="ce5d-a89f-d8af-c646" profileTypeName="Ship">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sailing" characteristicTypeId="01a9-fb9f-079b-b5a1" value="2"/>
+            <characteristic name="Discipline" characteristicTypeId="b0d2-cfef-48c9-0046" value="6"/>
+            <characteristic name="Boarding" characteristicTypeId="0e9c-98e6-9c8d-65d1" value="10"/>
+            <characteristic name="Gunnery" characteristicTypeId="b5f0-af08-9199-5f67" value="13"/>
+            <characteristic name="Hull" characteristicTypeId="6ae0-438a-301b-e203" value="11"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="74c4-8b5b-243b-2d37" name="Santissima Trinidad" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>El Ponderoso: This ship may never make tigth turns.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="0d00-f9f8-6795-76a1" name="New CategoryLink" hidden="false" targetId="d0d5-5588-4426-d9ab" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="d2ec-a01e-2615-510b" name="Captain" hidden="false" targetId="f11a-bab0-856f-2a50" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="8798-8366-550b-fbb8" value="154.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ddb0-f97f-4767-8107" name="Squadron" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="7350-ccfb-e6ee-2f5f" name="New CategoryLink" hidden="false" targetId="e25d-2d12-cec3-e5af" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ee60-da29-8780-9c79" name="Ships" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f52-86b1-60f5-b775" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="8c41-d457-d817-8085" name="5th Rate" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="fb34-a9a8-1b19-cc82" name="5th Rate" hidden="false" profileTypeId="ce5d-a89f-d8af-c646" profileTypeName="Ship">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Sailing" characteristicTypeId="01a9-fb9f-079b-b5a1" value="5"/>
+                    <characteristic name="Discipline" characteristicTypeId="b0d2-cfef-48c9-0046" value="4"/>
+                    <characteristic name="Boarding" characteristicTypeId="0e9c-98e6-9c8d-65d1" value="3"/>
+                    <characteristic name="Gunnery" characteristicTypeId="b5f0-af08-9199-5f67" value="5"/>
+                    <characteristic name="Hull" characteristicTypeId="6ae0-438a-301b-e203" value="3"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks>
+                <categoryLink id="0f8e-7c76-5727-f0ad" name="New CategoryLink" hidden="false" targetId="e25d-2d12-cec3-e5af" primary="true">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="defd-7be6-e14f-8d10" name="Captain" hidden="false" targetId="f11a-bab0-856f-2a50" type="selectionEntryGroup">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" Points" costTypeId="8798-8366-550b-fbb8" value="22.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7d80-8a5b-7319-31be" name="6th Rate" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="6fd8-e703-3c10-fa73" name="6th Rate" hidden="false" profileTypeId="ce5d-a89f-d8af-c646" profileTypeName="Ship">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Sailing" characteristicTypeId="01a9-fb9f-079b-b5a1" value="6"/>
+                    <characteristic name="Discipline" characteristicTypeId="b0d2-cfef-48c9-0046" value="3"/>
+                    <characteristic name="Boarding" characteristicTypeId="0e9c-98e6-9c8d-65d1" value="2"/>
+                    <characteristic name="Gunnery" characteristicTypeId="b5f0-af08-9199-5f67" value="3"/>
+                    <characteristic name="Hull" characteristicTypeId="6ae0-438a-301b-e203" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks>
+                <categoryLink id="08ba-43bd-f3be-008b" name="New CategoryLink" hidden="false" targetId="e25d-2d12-cec3-e5af" primary="true">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="c8fe-6ae8-dfd5-4c3a" name="Captain" hidden="false" targetId="f11a-bab0-856f-2a50" type="selectionEntryGroup">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" Points" costTypeId="8798-8366-550b-fbb8" value="12.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="8798-8366-550b-fbb8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks/>
+  <sharedSelectionEntries>
+    <selectionEntry id="a085-7344-2604-b4b3" name="Marksman" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="afbf-e0c6-39a7-d3b6" name="Marksman" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The Ship may re-roll 1s when rollling its Gunnery dice.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="8798-8366-550b-fbb8" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9cd8-d88e-8e84-8199" name="Swashbuckler" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="305c-0fc7-f25b-15a6" name="Swashbuckler" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The Ship may re-roll 1s when rollling its Boarding dice.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="8798-8366-550b-fbb8" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c209-895b-6cae-4d9a" name="Architect" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="2943-103a-3219-5e2a" name="Architect" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The Ship may re-roll 1s when rollling its Hull dice.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="8798-8366-550b-fbb8" value="5.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="f11a-bab0-856f-2a50" name="Captain" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="b187-8b7a-a3d3-b605" name="Architect" hidden="false" targetId="c209-895b-6cae-4d9a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7b07-319d-7832-a337" name="Marksman" hidden="false" targetId="a085-7344-2604-b4b3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c88a-9af6-5b5b-e27a" name="Swashbuckler" hidden="false" targetId="9cd8-d88e-8e84-8199" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules/>
+  <sharedProfiles/>
+</catalogue>
